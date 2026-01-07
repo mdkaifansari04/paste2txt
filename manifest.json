@@ -1,5 +1,5 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 2,
     "name": "paste2txt",
     "description": "A simple tool to convert paste content to text",
     "version": "1.0.0.0",
@@ -13,7 +13,7 @@
     ],
     "background": {
         "service_worker": "background.js"
-    },
+    },  
     "action": {
         "default_popup": "pop.html",
         "default_icon": "p2txt.png"
