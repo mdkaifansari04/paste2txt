@@ -1,36 +1,36 @@
-# 🤝 Contributing to Paste2Txt
+# Contributing to Paste2Txt
 
-First off, thank you for thinking about contributing! 🎉
+First off, thank you for thinking about contributing!
 
 This document will help you get started. Don't worry - it's easier than you think!
 
 ---
 
-## 🌟 Ways to Contribute
+## Ways to Contribute
 
 You don't need to be a coding expert! Here are all the ways you can help:
 
-### 1. 🐛 Report Bugs
+### 1. Report Bugs
 Found something broken? Let us know!
 
-### 2. ✨ Suggest Features
+### 2. Suggest Features
 Got a cool idea? Share it!
 
-### 3. 📝 Improve Documentation
+### 3. Improve Documentation
 Make the README clearer or fix typos
 
-### 4. 💻 Write Code
+### 4. Write Code
 Fix bugs or add new features
 
-### 5. 🎨 Design Improvements
+### 5. Design Improvements
 Make the UI look even better
 
-### 6. 📖 Write Tutorials
+### 6. Write Tutorials
 Help others learn how to use it
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Step 1: Set Up Your Workspace
 
@@ -82,14 +82,14 @@ Help others learn how to use it
    ```
    
    **Good commit messages:**
-   - ✅ "Fix download button not working"
-   - ✅ "Add character counter feature"
-   - ✅ "Update README with installation steps"
+   - "Fix download button not working"
+   - "Add character counter feature"
+   - "Update README with installation steps"
    
    **Bad commit messages:**
-   - ❌ "Fixed stuff"
-   - ❌ "Update"
-   - ❌ "asdfgh"
+   - "Fixed stuff"
+   - "Update"
+   - "asdfgh"
 
 2. **Push to GitHub**
    ```bash
@@ -104,7 +104,7 @@ Help others learn how to use it
 
 ---
 
-## 📋 Pull Request Checklist
+## Pull Request Checklist
 
 Before submitting, make sure:
 
@@ -116,18 +116,18 @@ Before submitting, make sure:
 
 ---
 
-## 💡 Coding Guidelines
+## Coding Guidelines
 
 ### Keep It Simple
 Write code that's easy to understand. Future you will thank present you!
 
 ```javascript
-// Good ✅
+// Good
 function downloadFile(content, filename) {
     // Clear and descriptive
 }
 
-// Not so good ❌
+// Not so good
 function df(c, f) {
     // What does this mean?
 }
@@ -141,11 +141,11 @@ function df(c, f) {
 Explain the "why", not the "what"
 
 ```javascript
-// Good ✅
+// Good
 // Convert blob to file because Chrome needs a File object
 const file = new File([blob], filename);
 
-// Not needed ❌
+// Not needed
 // Set x to 5
 const x = 5;
 ```
@@ -160,7 +160,7 @@ Each function should do one thing well
 
 ---
 
-## 🎯 What We're Looking For
+## What We're Looking For
 
 ### High Priority
 - Bug fixes
@@ -183,7 +183,7 @@ Each function should do one thing well
 
 ---
 
-## ❓ Need Help?
+## Need Help?
 
 **Stuck?** Don't worry! Here's what to do:
 
@@ -191,11 +191,11 @@ Each function should do one thing well
 2. **Ask questions** - Open an issue with the "question" label
 3. **Be specific** - The more details you give, the better we can help
 
-**Remember:** There are no stupid questions! We all started somewhere. 🌱
+**Remember:** There are no stupid questions! We all started somewhere.
 
 ---
 
-## 🎨 Design Principles
+## Design Principles
 
 When adding features, keep these in mind:
 
@@ -207,7 +207,7 @@ When adding features, keep these in mind:
 
 ---
 
-## 🐛 Reporting Bugs
+## Reporting Bugs
 
 Found a bug? Here's how to report it:
 
@@ -243,7 +243,7 @@ OS: macOS 14.0
 
 ---
 
-## 💬 Code of Conduct
+## Code of Conduct
 
 ### Be Nice
 - Be respectful and kind
@@ -258,11 +258,11 @@ OS: macOS 14.0
 - Discriminating against anyone
 - Sharing private information
 
-We want everyone to feel welcome here! 💙
+We want everyone to feel welcome here!
 
 ---
 
-## 🏆 Recognition
+## Recognition
 
 All contributors will be:
 - Listed in the README
@@ -271,18 +271,18 @@ All contributors will be:
 
 ---
 
-## 📝 License
+## License
 
 By contributing, you agree that your contributions will be licensed under the MIT License.
 
 ---
 
-## 🙏 Thank You!
+## Thank You!
 
 Every contribution makes this project better. Whether you're fixing a typo or adding a major feature, you're awesome! 
 
-Questions? Just ask. We're here to help! 😊
+Questions? Just ask. We're here to help!
 
 ---
 
-**Happy Contributing! 🚀**
+**Happy Contributing!**
