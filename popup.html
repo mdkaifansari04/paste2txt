@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Past2Txt</title>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">Past2Txt</h1>
+      <p class="subtitle">Paste your logs and download the processed output</p>
+    </div>
+
+    <div class="input-section">
+      <label class="textarea-label">
+        <span class="material-icons" style="font-size: 18px;">description</span>
+        Log Content
+      </label>
+      <input class="input-filename" value="filename" type="text" id="filename" multiple style="margin-bottom: 10px;" />
+      <textarea 
+        id="input" 
+        placeholder="Paste your log files here...&#10;&#10;• Supports multiple formats&#10;• Automatic parsing&#10;• Clean structured output"
+      ></textarea>
+      <div class="char-count" id="charCount">0 characters</div>
+    </div>
+
+    <div class="status" id="status"></div>
+
+    <div class="action-section">
+      <button class="btn btn-secondary" id="clear">
+        <span class="material-icons">clear</span>
+        Clear
+      </button>
+      <button class="btn btn-primary" id="download">
+        <span class="material-icons">download</span>
+        Download Parsed Logs
+      </button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
