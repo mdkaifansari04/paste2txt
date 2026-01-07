@@ -1,0 +1,21 @@
+{
+    "manifest_version": 1,
+    "name": "paste2txt",
+    "description": "A simple tool to convert paste content to text",
+    "version": "1.0.0.0",
+    "permissions": [
+        "clipboardRead",
+        "clipboardWrite",
+        "storage"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "pop.html",
+        "default_icon": "p2txt.png"
+    }
+}
