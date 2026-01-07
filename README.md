@@ -29,24 +29,32 @@ A simple Chrome extension to convert text from your clipboard into downloadable 
 
 ## Quick Start
 
-### Installation
+### Installation (Extension not published yet)
 
-1. **Download the Extension**
-   - Clone this repo or download as ZIP
+Since this extension isn't on the Chrome Web Store, you can easily install it yourself:
+
+1. **Download**
+   - Download this project as ZIP or clone it:
    ```bash
    git clone https://github.com/yourusername/paste2txt.git
    ```
+   - Extract the ZIP file if you downloaded it
 
-2. **Load in Chrome**
-   - Open Chrome and go to `chrome://extensions/`
-   - Turn on **Developer mode** (top right corner)
-   - Click **Load unpacked**
-   - Select the `paste2txt` folder
+2. **Open Chrome Extensions**
+   - Open Chrome browser
+   - Go to `chrome://extensions/` (or Menu > Extensions > Manage Extensions)
 
-3. **Start Using!**
-   - Click the Paste2Txt icon in your browser
-   - Paste your text
-   - Hit download - done!
+3. **Enable Developer Mode**
+   - Look for "Developer mode" toggle in the top-right corner
+   - Turn it ON
+
+4. **Load the Extension**
+   - Click **"Load unpacked"** button
+   - Select the `paste2txt` folder (the one with manifest.json inside)
+
+5. **Done!**
+   - The extension icon will appear in your toolbar
+   - Click it and start using!
 
 ---
 
